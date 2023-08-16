@@ -3,8 +3,7 @@ const mongoose = require('mongoose');
 
 const uri = 'mongodb+srv://kunal97:PQs25tmPIzim9oWr@cluster3.qamcott.mongodb.net/?retryWrites=true&w=majority';
 
-mongoose.connect(uri)//it establishes a connection to the MongoDB server and returns a promise. If connection is successful, promise
- //will resolve.If there is an error during the connection process, the promise will be rejected.
+mongoose.connect(uri)//establishes connection to the MongoDB server.
      .catch((err) => console.log("connection " + err));
 
 const db = mongoose.connection;//mongoose.connection object serves as the interface through which you can interact with the MongoDB database connection,
