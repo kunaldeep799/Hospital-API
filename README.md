@@ -170,8 +170,11 @@ CN Hospital API requires the following dependencies:
     -   `patient.js`
     -   `report.js`
 -   `routes`
--   -   `index.js`
+    -   `index.js`
     -   `doctors.js`
     -   `patients.js`
     -   `reports.js`
 -   `index.js`
+-   `package-lock.json`
+-   `package.json`
+-   `README.md`
