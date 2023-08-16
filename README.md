@@ -7,8 +7,8 @@ The API is built using Node.js and MongoDB. It uses JSON Web Tokens (JWT) for se
 ## Installation
 
 To install and run the application, follow the steps below:
-1. Clone the repository - ``
-2. Locate the project directory
+1. Clone the repository - `https://github.com/kunaldeep799/Hospital-API.git`
+2. Locate the project directory.
 3. Install all the dependencies - `npm install` or `npm i`
 4. Start the server: `npm start`
 5. Open the app in your postman at `http://localhost:7200`
